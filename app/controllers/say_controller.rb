@@ -6,5 +6,7 @@ class SayController < ApplicationController
 
   def goodbye
   end
+  def show
+  end
 
 end
