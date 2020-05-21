@@ -11,10 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20200509153328) do
+ActiveRecord::Schema.define(:version => 20200521153740) do
 
   create_table "paid_leaves", :force => true do |t|
     t.string   "alasan"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "says", :force => true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
   end
