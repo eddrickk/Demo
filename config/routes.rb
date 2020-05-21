@@ -1,4 +1,6 @@
 Demo::Application.routes.draw do
+  resources :paid_leaves
+
   get "say/index"
   get "say/hello"
 
